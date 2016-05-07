@@ -1,4 +1,4 @@
-# signalmaster
+# P2P Signalling Server
 
 A simple signaling server for clients to connect and do signaling for WebRTC.
 
@@ -58,3 +58,10 @@ To run the image execute this:
     docker run --name signalmaster -d -p 8888:8888 signalmaster
 
 This will start a signal master server on port 8888 exposed on port 8888.
+
+## Deploy Heroku
+
+    heroku create
+    git push heroku master
+    heroku open
+
